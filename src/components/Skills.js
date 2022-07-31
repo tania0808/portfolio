@@ -13,7 +13,7 @@ export default function Skills() {
       ];
 
     return (
-        <section className='px-10 md:px-8 py-20'>
+        <section id='skill-set' className='px-10 md:px-8 py-20'>
             <h1 className='text-header font-black text-5xl text-center'>Skills & Toolset</h1>
             <div className={`grid grid-cols-3 pt-20 gap-14 md:grid-cols-1  md:place-items-center`}>
                 {data.map((item, value) => {

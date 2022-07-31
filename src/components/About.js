@@ -4,7 +4,7 @@ import personPhoto from '../images/IMG_4313.jpg'
 
 export default function About() {
   return (
-    <section className="bg-desktopPattern bg-cover w-full flex flex-row md:flex-col container mx-auto px-10 md:px-8 py-8">
+    <section id='about' className="bg-desktopPattern bg-cover w-full flex flex-row md:flex-col container mx-auto px-10 md:px-8 py-8">
         <div className='flex flex-col flex-1 gap-10 justify-center px-10 sm:pl-0  md:pb-8'>
             <span className='text-neutral-500 text-lg font-semibold'>Junior Front-End Developer</span>
             <h1 className='text-header font-black text-5xl'>I'm Tania</h1>

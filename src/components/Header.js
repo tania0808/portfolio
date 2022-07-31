@@ -20,18 +20,18 @@ export default function Header() {
         </div>
         <ul className={`${isNavOpen ? 'opacity-100' : 'md:opacity-0 md:-translate-y-24'} w-full container mx-auto px-24 my-6 lg:py-0 transition-all ease-linear duration-600 md:flex-col flex justify-end  text-xl items-center gap-6`}>
             <li>
-                <a href="/">
+                <a href="#skill-set">
                     <span>Skills</span>
                 </a>
             </li>
             <li>
-                <a href="/">
-                    <span>Work experience</span>
+                <a href="#projects">
+                    <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="/">
-                    <span>Projects</span>
+                <a href="#contact-me">
+                    <span>Contact</span>
                 </a>
             </li>
             <button className='bg-primary text-white rounded-full py-1.5 px-4'>Contact</button>

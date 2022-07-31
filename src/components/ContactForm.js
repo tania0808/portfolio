@@ -19,7 +19,7 @@ export default function ContactForm() {
     };
   
     return (
-        <section className="rounded-xl shadow-lg grid place-items-center mt-10">
+        <section id='contact-me' className="rounded-xl shadow-lg grid place-items-center mt-10">
             <h2 className='text-header font-black text-5xl text-center'>Let's talk</h2>
             <form action="" className='w-full max-w-md h-[500px] md:w-3/4' ref={form} onSubmit={sendEmail}>
                 <div className='flex flex-col items-center  pt-4 mt-4'>
