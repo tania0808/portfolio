@@ -10,11 +10,21 @@ module.exports = {
         'primary': 'rgb(233, 30, 99)',
         'grey-background': 'rgb(249, 249, 249)',
         'header': 'rgb(58, 49, 84)',
-        'icon': 'rgb(234, 226, 249)'
+        'icon': 'rgb(234, 226, 249)',
+        'hover': '#E92F41'
       },
       backgroundImage: {
         'mobilePattern': "url(/src/images/bg-mobile.png)",
         'desktopPattern': "url(/src/images/bg-light.png)"
+      },
+      borderWidth: {
+        DEFAULT: '1px',
+        '0': '0',
+        '2': '2px',
+        '3': '3px',
+        '4': '4px',
+        '6': '6px',
+        '8': '8px',
       }
     },
     screens: {
