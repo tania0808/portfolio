@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,10 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Header() {
 
     const [isNavOpen, setIsNavOpen] = useState(false);
-
-    useEffect(() => {
-        console.log(isNavOpen);
-    }, [isNavOpen])
 
   return (
     <header className={`${isNavOpen ? 'h-fit' : 'h-20 sm:h-16' } transition-all ease-linear duration-600 flex md:flex-col justify-end`}>
@@ -22,7 +18,7 @@ export default function Header() {
                 }
             </button>
         </div>
-        <ul className={`${isNavOpen ? 'opacity-100' : 'md:opacity-0 md:-translate-y-20'} w-full container mx-auto px-24 py-4 transition-all ease-linear duration-600 md:flex-col flex justify-end  text-xl items-center gap-6`}>
+        <ul className={`${isNavOpen ? 'opacity-100' : 'md:opacity-0 md:-translate-y-20'} w-full container mx-auto px-24 py-4 lg:py-0 transition-all ease-linear duration-600 md:flex-col flex justify-end  text-xl items-center gap-6`}>
             <li>
                 <a href="/">
                     <span>Skills</span>
