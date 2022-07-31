@@ -4,12 +4,15 @@ import emailjs from '@emailjs/browser';
 export default function ContactForm() {
     const form = useRef();
 
+
+
     const sendEmail = (e) => {
       e.preventDefault();
   
       emailjs.sendForm('service_opqsh8r', 'template_sijy9bh', form.current, 'sya1xhnaT5gi9X5Jx')
         .then((result) => {
             console.log(result.text);
+            e.target.reset();
         }, (error) => {
             console.log(error.text);
         });
