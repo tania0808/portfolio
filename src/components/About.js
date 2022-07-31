@@ -10,13 +10,13 @@ export default function About() {
             <h1 className='text-header font-black text-5xl'>I'm Tania</h1>
             <p className='w-3/4 md:w-full font-semibold text-justify text-lg'>I have recently completed the Web Development Course on OpenClassrooms Platform. I'm based in Paris and now I'm searching my first job in this field</p>
             <div className='flex gap-4 text-3xl text-primary w-3/4 md:w-full justify-around'>
-                <a href="https://github.com/tania0808" className='hover:text-gen transition ease-linear hover:scale-125'>
+                <a href="https://github.com/tania0808" className='hover:text-hover transition ease-linear hover:scale-125'>
                     <FaGithub/>
                 </a>
-                <a href="https://www.linkedin.com/in/tetiana-his/" className='hover:text-gen transition ease-linear hover:scale-125'>
+                <a href="https://www.linkedin.com/in/tetiana-his/" className='hover:text-hover transition ease-linear hover:scale-125'>
                     <FaLinkedin/>
                 </a>
-                <a href="mailto:tania08082000@gmail.com" className='hover:text-gen transition ease-linear hover:scale-125'>
+                <a href="mailto:tania08082000@gmail.com" className='hover:text-hover transition ease-linear hover:scale-125'>
                     <FaMailBulk/>
                 </a>
             </div>
