@@ -4,6 +4,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import ContactForm from './components/ContactForm';
 import NavList from './components/NavList';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <About/>
       <Skills/>
+      <Projects/>
       <ContactForm/>
       <NavList className='w-full container mx-auto px-24 my-6 lg:py-0 sm:flex-col flex justify-around  text-xl items-center gap-6'/>
     </div>

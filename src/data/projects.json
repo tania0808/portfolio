@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "type": "WEBPAGE",
+        "title": "Booki",
+        "languages": ["HTML5", "CSS3"],
+        "description": "Integration of a  mock-up into a web page with HTML & CSS",
+        "link": "https://tania0808.github.io/booki/"
+    },
+    {
+        "id": 2,
+        "type": "WEBPAGE",
+        "title": "Ohmyfood",
+        "languages": ["HTML5", "CSS3(Sass)"],
+        "description": "Integration of a mobile website with animations in CSS",
+        "link": "https://tania0808.github.io/ohmyfood/"
+    },
+    {
+        "id": 3,
+        "type": "WEBAPP",
+        "title": "Hot Takes",
+        "languages": ["Node.js", "Express.js, MongoDB"],
+        "description": "The back end part of a web application, which is secured by applying the OWASP standards.",
+        "link": "https://github.com/tania0808/HotTakes"
+    },
+    {
+        "id": 4,
+        "type": "WEB APP",
+        "title": "Groupomania",
+        "languages": ["Node.js", "Express.js, mySQL", "React.js", "Bootstrap"],
+        "description": "Full-Stack solution for a web application of a corporate social network",
+        "link": "https://github.com/tania0808/Groupomania"
+    }
+]
