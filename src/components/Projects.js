@@ -14,12 +14,12 @@ export default function Projects() {
     { alt: "groupomania page", src: groupomania},
   ];
   return (
-    <section id='projects' className='px-10 md:px-8 py-20'>
+    <section id='projects' className='px-10 md:px-8 sm:p-2 py-20'>
       <h1 className='text-header font-black text-5xl text-center'>Projects</h1>
-      <div className={`grid grid-cols-2 pt-20 gap-14 md:grid-cols-1  md:place-items-center`}>
+      <div className={`grid grid-cols-2 align-center-middle pt-20 gap-14 md:grid-cols-1 place-items-center">`}>
           {data.map((item, index) => {
               return(
-                  <ProjectCard key={index} item={item} image={images[index].src}/>
+                <ProjectCard key={index} item={item} image={images[index].src}/>
               )
           })}
       </div>

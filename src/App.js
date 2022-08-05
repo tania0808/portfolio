@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App scroll-smooth font-poppins transition-all ease-linear duration-600 ">
+    <div className="App scroll-smooth font-poppins transition-all ease-linear duration-600 2xl:w-full 3xl:w-10/12 ml-auto mr-auto">
       <Header/>
       <About/>
       <Skills/>
