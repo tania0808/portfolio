@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../data/projects.json';
+import todo from '../images/todo.png'
 import groupomania from '../images/groupomania.png'
 import hotTakes from '../images/Hot-takes.png'
 import ohmyfood from '../images/ohmyfood.png'
@@ -12,6 +13,7 @@ export default function Projects() {
     { alt: "ohmyfood page", src: ohmyfood},
     { alt: "hot takes page", src: hotTakes},
     { alt: "groupomania page", src: groupomania},
+    { alt: "todo app", src: todo},
   ];
   return (
     <section id='projects' className='px-10 md:px-8 sm:p-2 py-20'>

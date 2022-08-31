@@ -30,5 +30,13 @@
         "languages": ["Node.js", "Express.js, mySQL", "React.js", "Bootstrap"],
         "description": "Full-Stack solution for a web application of a corporate social network",
         "link": "https://github.com/tania0808/Groupomania"
+    },
+    {
+        "id": 5,
+        "type": "WEB APP",
+        "title": "Todo list",
+        "languages": ["React.js", "Tailwind CSS", "Redux"],
+        "description": "Front-End solution of Todo list application",
+        "link": "https://todo-list-tania-his.netlify.app/"
     }
 ]
