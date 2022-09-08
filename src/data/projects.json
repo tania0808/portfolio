@@ -38,5 +38,13 @@
         "languages": ["React.js", "Tailwind CSS", "Redux"],
         "description": "Front-End solution of Todo list application",
         "link": "https://todo-list-tania-his.netlify.app/"
+    },
+    {
+        "id": 6,
+        "type": "WEB APP",
+        "title": "My Unsplash",
+        "languages": ["Express.js, MongoDB", "React.js", "Redux Toolkit", "Tailwind CSS"],
+        "description": "Front-End solution of Photo-sharing application",
+        "link": "https://github.com/tania0808/my-unsplash"
     }
 ]
