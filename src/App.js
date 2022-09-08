@@ -8,13 +8,13 @@ import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App scroll-smooth font-poppins transition-all ease-linear duration-600 2xl:w-full 3xl:w-10/12 ml-auto mr-auto">
+    <div className="scroll-smooth font-poppins transition-all ease-linear duration-600 2xl:w-10/12 3xl:w-10/12 ml-auto mr-auto">
       <Header/>
       <About/>
       <Skills/>
       <Projects/>
       <ContactForm/>
-      <NavList className='w-full container mx-auto px-24 my-6 lg:py-0 sm:flex-col flex justify-around  text-xl items-center gap-6'/>
+      <NavList className=' mx-auto px-24 my-6 lg:py-0 sm:flex-col flex justify-around  text-xl items-center gap-6'/>
     </div>
   );
 }
