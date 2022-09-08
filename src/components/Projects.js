@@ -18,7 +18,7 @@ export default function Projects() {
     { alt: "unsplash", src: unsplash},
   ];
   return (
-    <section id='projects' className='px-10 md:px-8 sm:p-2 py-20'>
+    <section id='projects' className='px-10 lg:p-0 md:px-8 sm:p-4 py-20'>
       <h1 className='text-header font-black text-5xl text-center'>Projects</h1>
       <div className={`grid grid-cols-2 align-center-middle pt-20 gap-14 md:grid-cols-1 place-items-center">`}>
           {data.map((item, index) => {

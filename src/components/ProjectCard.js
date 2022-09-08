@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({item, image}) => {
     return (
-        <a href={item.link} className='flex-1 transform transition duration-500 hover:scale-110 w-10/12 2xl:w-11/12 xl:w-11/12 h-full lg:w-full ml-auto mr-auto self-center rounded-xl shadow-lg drop-shadow-md px-4 sm:p-0 py-5 xl:px-8 flex flex-col place-items-center gap-4 text-center md:w-3/4 sm:w-full'>
+        <a href={item.link} className='flex-1 transform transition duration-500 hover:scale-110 sm:hover:scale-100 w-10/12 2xl:w-11/12 xl:w-11/12 h-full lg:w-full ml-auto mr-auto self-center rounded-xl shadow-lg drop-shadow-md px-4 sm:p-0 py-5 xl:px-8 flex flex-col place-items-center gap-4 text-center md:w-3/4 sm:w-[95%]'>
             <div className='h-72 w-full relative'>
                 <img className='flex-1 w-full h-full object-cover rounded-xl' src={image} alt="" />
             </div>
