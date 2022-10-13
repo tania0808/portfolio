@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Frontend Development",
-        "content": ["HTML5", "CSS3(Sass)", "Javascript", "React.js", "Bootstrap", "Tailwind CSS"]
+        "content": ["HTML5", "CSS3(Sass)", "Bootstrap", "Tailwind CSS", "Styled-Components", "Javascript", "React.js", "TypeScript" ]
     },
     {
         "id": 2,
