@@ -46,5 +46,13 @@
         "languages": ["Express.js, MongoDB", "React.js", "Redux Toolkit", "Tailwind CSS"],
         "description": "Full-Stack solution of Photo-sharing application",
         "link": "https://github.com/tania0808/my-unsplash"
+    },
+    {
+        "id": 7,
+        "type": "Landing page",
+        "title": "Bealy",
+        "languages": ["React.js", "Styled Components", "TypeScript", "Compound Components"],
+        "description": "Front-End solution of Bealy Landing Page",
+        "link": "https://bealy-homepage.netlify.app/"
     }
 ]
