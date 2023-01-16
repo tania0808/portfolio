@@ -1,13 +1,5 @@
 [
     {
-        "id": 1,
-        "type": "WEBPAGE",
-        "title": "Booki",
-        "languages": ["HTML5", "CSS3"],
-        "description": "Integration of a  mock-up into a web page with HTML & CSS",
-        "link": "https://tania0808.github.io/booki/"
-    },
-    {
         "id": 2,
         "type": "WEBPAGE",
         "title": "Ohmyfood",

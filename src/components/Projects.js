@@ -5,13 +5,13 @@ import unsplash from "../images/unsplash.png";
 import groupomania from "../images/groupomania.png";
 import hotTakes from "../images/Hot-takes.png";
 import ohmyfood from "../images/ohmyfood.png";
-import booki from "../images/booki.png";
+//import booki from "../images/booki.png";
 import bealy from "../images/bealy.png";
 import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   const images = [
-    { alt: "booki page", src: booki },
+    //{ alt: "booki page", src: booki },
     { alt: "ohmyfood page", src: ohmyfood },
     { alt: "hot takes page", src: hotTakes },
     { alt: "groupomania page", src: groupomania },
@@ -19,7 +19,7 @@ export default function Projects() {
     { alt: "unsplash", src: unsplash },
     { alt: "bealy", src: bealy },
   ];
-  
+
   return (
     <section id="projects" className="px-10 lg:p-0 md:px-8 sm:p-4 py-20">
       <h1 className="text-header font-black text-5xl text-center">Projects</h1>
